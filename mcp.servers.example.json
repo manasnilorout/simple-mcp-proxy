@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "UiPathMcpServer": {
+      "url": "https://alpha.uipath.com/agents_f7/Agents/agenthub_/mcp/8fd0890b-42a8-4d5d-93b4-da0986336042/demotoshield",
+      "headers": {
+        "Authorization": "Bearer ey..."
+      },
+      "type": "http"
+    },
+    "Snowflake MCP Server": {
+      "url": "https://TFPEOUX-IQ77856.snowflakecomputing.com/api/v2/databases/dash_mcp_db/schemas/data/mcp-servers/dash_mcp_server",
+      "headers": {
+        "Authorization": "Bearer ey..."
+      },
+      "type": "http"
+    },
+    "github": {
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ghp_..."
+      },
+      "type": "http"
+    }
+  }
+}
